@@ -20,3 +20,4 @@ class Teste_Produtos():
          self.driver.get(self.url)
          self.driver.find_element(By.ID,"user-name").send_keys("standard_user")
          self.driver.find_element(By.NAME,"password").send_keys("secret_sauce")
+         self.driver.find_element(By.CSS_SELECTOR,"input.submit-button.btn_action").click
